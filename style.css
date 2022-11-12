@@ -27,7 +27,7 @@ ul{
 }
 ul li a{
     text-decoration: none;
-    padding: 0 15px;
+    margin: 0 15px;
     font-family: sans-serif;
     color: rgb(112, 164, 164);
    
