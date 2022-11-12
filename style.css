@@ -76,7 +76,7 @@ ul li a:hover{
     
 }
 .main h1,h4{
-    font-family:mycursive;
+    font-family:mycursive, 'Dosis', sans-serif;
     margin: 5px;
 }
 h1{
