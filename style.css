@@ -1,3 +1,7 @@
+@font-face {
+    font-family: mycursive;
+    src: url(Fonts/Dosis-Regular.ttf);
+}
 body{
  background-color: rgb(201, 241, 241);
 }
@@ -72,6 +76,6 @@ ul li a:hover{
     
 }
 .main h1,h4{
-    font-family:cursive;
+    font-family:mycursive;
     margin: 5px;
 }
