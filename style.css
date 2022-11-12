@@ -1,6 +1,6 @@
 @font-face {
     font-family: mycursive;
-    src: url(/Fonts/Dosis-Regular.ttf);
+    src: url(Fonts/Dosis-Regular.ttf);
 }
 body{
  background-color: rgb(201, 241, 241);
