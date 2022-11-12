@@ -1,0 +1,81 @@
+@font-face {
+    font-family: mycursive;
+    src: url(/Fonts/Dosis-Regular.ttf);
+}
+body{
+ background-color: rgb(201, 241, 241);
+}
+.main{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+header{
+    position: fixed;
+    width: 100%;
+    display: inline-flex;
+}
+
+.menu{
+    display: inline-flex;
+    position: absolute;
+    right: 5%;
+}
+ul{
+    list-style-type: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    padding: 0 15px;
+    font-family: sans-serif;
+    color: rgb(112, 164, 164);
+   
+   
+    
+}
+ul li a:hover{
+    color: rgb(31, 49, 49);
+    /* transition: 0.9s; */
+    /* transition: 0.3s ease-in-out; */
+    font-weight: 500;
+}
+@keyframes mymove {
+    0%{
+    color: aqua;
+    }
+   10%{
+    color: rgb(155, 193, 236);
+    
+   }
+   25%{
+    color: yellow;
+    
+   }
+    35%{
+        color: rgb(188, 131, 131);
+        
+    }
+    45%{
+        color: rgb(180, 149, 180);
+        font-size: 16px;
+    }
+    55%{
+        color: rgb(190, 255, 125);
+        
+    }
+    65%{
+        color: black;
+        
+    }
+   }
+.underline{
+    position: relative;
+  animation: mymove 3s infinite;
+  overflow: hidden;
+    
+}
+.main h1,h4{
+    font-family:mycursive;
+    margin: 5px;
+}
