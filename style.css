@@ -109,3 +109,79 @@ ul li a:hover{
 h1{
     font-size: 3rem;
 }
+.main-body{
+    margin: 2rem 1rem;
+    text-align: center;
+}
+.main-body h1,h4{
+    font-family:mycursive;
+    margin: 5px;
+    letter-spacing: 0.15rem;
+}
+.main-body p,li{
+    font-family: mycursive;
+}
+.main-body ol li{
+    list-style-type: none;
+    margin: 2px 0 3px  0;
+    padding: 5px 0;
+}
+.main-body img{
+    margin-top: 2rem;
+    width: 10%;
+}
+ol{
+    display: inline;
+}
+
+.footer h1,h4{
+        font-family:mycursive;
+        margin: 5px;
+        letter-spacing: 0.15rem;
+    }
+footer .footer{
+    text-align: center;
+}
+footer .footer ul li{
+    display: inline;
+}
+footer .footer{
+    display: inline;
+}
+footer .footer ul{
+    padding: 0 5px;   
+}
+footer .footer ul li .phone{
+    width: 1.4%;
+}
+footer .footer ul li .phone:hover{
+   cursor: pointer;
+   transform: scale(1.5);
+}
+footer .footer p {
+    margin-top: 4rem;
+}
+@media (width <= 300px){
+    .main-body img{
+        height: 30%;
+        width: 30%;
+    }  
+}
+@media (300px < width <= 500px){
+    .main-body img{
+        height: 30%;
+        width: 30%;
+    }  
+    .cloud{
+        width:40%;
+    }
+    .main-body{
+       margin: 7rem 0rem;
+    }
+    .main-body ol li{
+        margin: 1rem 0;
+    }
+    footer .footer ul li .phone{
+        width: 3.7%;
+    }
+}
