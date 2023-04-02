@@ -12,6 +12,10 @@ body{
     animation: wiggle 4s linear infinite;
 
 }
+.header-color {
+    position: fixed;
+    background-color: black;
+}
 @keyframes wiggle {
         0%, 7% {
           transform: rotateZ(0);
