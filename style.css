@@ -11,9 +11,12 @@ body{
     width:10%;
     animation: wiggle 4s linear infinite;
     margin-top: 5rem;
-    
-
 }
+
+ul li.a:hover{
+    color:white;
+}
+
 .header-color {
     position: fixed;
     background-color: black;
