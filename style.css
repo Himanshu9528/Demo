@@ -326,9 +326,12 @@ transition: 0.3s cubic-bezier(0.52, 0.22, 0.58, 1);
         padding: 0 20px;
     }
     
-    .main-body p, li {
-        font-family: mycursive;
+   .main-body li {
         font-size: 12px;
     }
+    .main-body p {
+        font-size: 15px;
+    }
+
 
 }
