@@ -299,7 +299,9 @@ transition: 0.3s cubic-bezier(0.52, 0.22, 0.58, 1);
     .main-body p {
         font-size: 18px;
     }
-    
+    .menu a {
+    font-size: 12px;
+}
    
 }
 @media (300px < width <= 500px){
@@ -338,10 +340,9 @@ transition: 0.3s cubic-bezier(0.52, 0.22, 0.58, 1);
     .main-body p {
         font-size: 18px;
     }
-    .main-body ol li {
-    font-size: 18px;
+    .menu a {
+    font-size: 12px;
 }
-
 
 
 
